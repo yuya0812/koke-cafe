@@ -3,9 +3,9 @@ import { LandingPage } from "@/components/LandingPage";
 import { getSiteConfig } from "@/config/siteConfig";
 import { buildMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = buildMetadata("ja");
+export const metadata: Metadata = buildMetadata("en");
 
-export default function Home() {
-  const config = getSiteConfig("ja");
+export default function HomeEn() {
+  const config = getSiteConfig("en");
   return <LandingPage config={config} />;
 }
