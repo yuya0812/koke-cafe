@@ -89,7 +89,7 @@ export type SiteShared = {
 };
 
 export const site: SiteShared = {
-  url: "https://koke-cafe.example.com", // ← 本番URLに差し替え
+  url: "https://koke-cafe.vercel.app",
   shop: {
     name: "KOKE CAFE",
     nameShort: "KOKE",
